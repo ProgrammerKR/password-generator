@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <span class="icon">🌙</span>
+            </button>
+        </div>
+        <h1>Password Generator</h1>
+        <div class="password-display">
+            <input type="text" id="password" readonly placeholder="Your password will appear here">
+            <button id="copy-btn" aria-label="Copy password">Copy</button>
+        </div>
+        <div class="options">
+            <div class="option">
+                <label for="length">Password Length: <span id="length-value">12</span></label>
+                <input type="range" id="length" min="4" max="32" value="12">
+            </div>
+            <div class="option">
+                <label><input type="checkbox" id="uppercase" checked> Uppercase Letters (A-Z)</label>
+            </div>
+            <div class="option">
+                <label><input type="checkbox" id="lowercase" checked> Lowercase Letters (a-z)</label>
+            </div>
+            <div class="option">
+                <label><input type="checkbox" id="numbers" checked> Numbers (0-9)</label>
+            </div>
+            <div class="option">
+                <label><input type="checkbox" id="symbols" checked> Symbols (!@#$%)</label>
+            </div>
+        </div>
+        <button id="generate-btn">Generate Password</button>
+        <footer class="watermark">Made by ProXentix</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -2,6 +2,8 @@
 
 A professional, fully responsive Password Generator built with HTML, CSS, and JavaScript. Generate secure passwords with customizable options, toggle between dark/light modes, and enjoy a clean, accessible UI. Features a "Made by ProXentix" watermark.
 
+![Password Generator Preview Image](preview.png)
+
 🔗 **[Live Demo](https://programmerkr.github.io/password-generator/)**
 
 ## Table of Contents
